@@ -76,6 +76,8 @@ npm install
 PORT=5000
 MONGODB_URI=your_mongodb_connection_string
 ```
+⚙️ Replace your_mongodb_connection_string with your actual MongoDB URI
+(e.g., from MongoDB Atlas)
 #### Then start the backend server:
 ```bash
 npm start
@@ -86,3 +88,4 @@ cd ../client
 npm install
 npm start
 ```
+The app will now run on http://localhost:3000 and connect to the backend on port 5000.
